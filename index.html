@@ -1,0 +1,261 @@
+<html>
+	<head>
+		<title>OLSA SHOP :: developer</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel='stylesheet' href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+		<link rel='stylesheet' href="css/style.css">
+    <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <style>
+        /*.slide_cafe
+        {
+          background: url(img/3_binh.jpg);
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+          animation: slideBg 8s linear infinite 1s;
+          animation-timing-function: ease-in-out;
+        }
+        @keyframes slideBg
+        {
+          0%{background-image: url(img/3_binh.jpg);}
+          25%{background-image: url(img/binh.jpg);}
+          50%{background-image: url(img/coc.jpg);}
+          75%{background-image: url(img/dongho.jpg);}
+          100%{background-image: url(img/khan.jpg);}
+          
+        }*/
+
+
+    </style>
+	</head>
+	<body>
+		<div class="container">
+      <section style="margin-top: 60px; ">
+			<div class="row">
+          <div class="col-md-4">
+            <div class="owl-carousel owl-theme banner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4" style="padding: 0;"><img style="width: 100%;" src="img/3_binh.jpg" alt=""></div>
+                  <div class="col-md-4" style="padding: 0;"><img style="width: 100%;" src="img/binh.jpg" alt=""></div>
+                  <div class="col-md-4" style="padding: 0;"><img style="width: 100%;" src="img/khan.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-8" style="text-align: center;">
+            <h2>OLSA SHOP</h2>
+            <hr style="border: black 1px solid">
+            <h2>Sản phẩm 12 cung hoàng đạo</h2>
+            <hr style="border: black 1px solid">
+            <h2 style="margin-top: 40px; font-size: 40px;"><strong>Sale khủng tri ân khách hàng</strong></h2>
+            <div class="button-watch"><button type="button" class="btn btn-danger">CLICK XEM NGAY </button></div>
+            <h4 style="margin-top: 20px;">Sản phẩm đang được hạ giá, chỉ còn :</h4>
+            <div class="watch" style="font-size: 30px; color:red;"><p id="demo"></p></div>
+            <div class="links"><a href="https://www.instagram.com/olsashop.vn/">https://www.instagram.com/olsashop.vn/</a></div>
+          </div>  
+			</div>
+      <hr style="margin-top: 50px;">
+      </section>
+      <section class="product_love">
+        <h2 align="center" ><button style="width: 35%;" type="button" class="btn btn-danger">TOP SẢN PHẨM ĐƯỢC YÊU THÍCH</button></h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/3_binh.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bình giữ nhiệt</h5>
+                <p class="card-text"><del>369k</del> <strong style="font-size: 20px">=></strong> 239k</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/coc.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cốc cà phê</h5>
+                <p class="card-text"><del>149k</del> <strong style="font-size: 20px">=></strong> 89k</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/dongho.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vòng tay</h5>
+                <p class="card-text"><del>199k</del> <strong style="font-size: 20px">=></strong> 129k</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/khan.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Khăn handmade</h5>
+                <p class="card-text"><del>249k</del> <strong style="font-size: 20px">=></strong> 190k</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="binh_ca_phe">
+        <h3> BÌNH CÀ PHÊ GIỮ NHIỆT CUNG HOÀNG ĐẠO <strong style="color: red;">(<del>369k</del> >> 239k)</strong></h3>
+        <div class="row" style="margin-top: 36px;">
+          <div class="col-md-4" id="slide_cafe" style="">
+          </div>
+          <div class="col-md-8">
+            <ul style="line-height: 31px;">
+              <ol><strong>Thông tin sản phẩm</strong></ol>
+              <ol>- Inox 204 trong và 301 ngoài giữ nhiệt 12 tiếng</ol>
+              <ol>- Thiết kế độc quyền theo ngày tháng sinh của khách hàng.</ol>
+              <ol>- Lớp vỏ bên ngoài được sơn tĩnh điện khô, không bay, phai màu.</ol>
+              <ol>- Phù hợp làm quà tặng sinh nhật, phụ kiện đi phượt, bàn làm việc,..</ol>
+              <ol>- Dung tích: 450ml, chiều cao 24cm</ol>
+            </ul>
+            <ul>
+              <div class="row">
+                <div class="col-md-6">
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" checked>Ma kết (22/12 - 19/1)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Bảo Bình (20/1 - 18/2)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> Song Ngư (19/2 - 20/3)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" checked>Bạch Dương (21/3 - 20/4)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Kim Ngưu (21/4 - 20/5)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Song Tử (21/5 - 21/6)</label>
+                </div>
+              </ol>
+              </div>
+            <div class="col-md-6">
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" checked>Cự Giải (22/6 - 22/7)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio"> Sư Tử (23/7 - 22/8)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Xử Nữ (23/8 - 22/9)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" checked>Thiên Bình (23/9 - 23/10)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Thần Nông (24/10 -22/11)</label>
+                </div>
+              </ol>
+              <ol>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Nhân Mã (23/11 - 21/12)</label>
+                </div>
+              </ol>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 15px;">
+              <div class="col-md-6" style="text-align: center; padding-left: 0px"><a href="#" class="btn btn-primary">Mua ngay giá sale</a></div>
+              <div class="col-md-6" style="text-align: center; padding-left: 0px"><a href="#" class="btn btn-primary">Mua theo combo sale</a></div>
+            </div>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+
+		</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		<script src="js/index.js"></script>	
+    <script type="text/javascript" src="OwlCarousel/dist/owl.carousel.js" ></script>
+    <script type="text/javascript">
+          $('.owl-carousel').owlCarousel({
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            loop:true,
+            autoWidth:true,
+            autoHeight:true,
+            responsive:{
+              0:{
+                items:1
+              },
+              600:{
+                items:3
+              },
+              1000:{
+                items:5
+              }
+
+            }
+          });
+    </script>
+
+    <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor( 0 / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+	</body>
+</html>
